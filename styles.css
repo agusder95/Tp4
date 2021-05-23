@@ -106,17 +106,21 @@ footer .image img{
 }
 
 footer #redes{
-    margin-right: 3%;
+    display: flex;
+    flex-basis: 20%;
     align-self: center;
 }
 
 footer #redes ul{
-    display: inline-flex;
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 footer #redes ul li{
-    display: inline;
-    margin: 4%;
+    flex-grow: 1;
+    margin: 1%;
 }
 
 /* Pseudo Class Style Foot Links */
